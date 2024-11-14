@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'JupiterSize_Example' do
+  pod 'JupiterSize', :path => '../'
+
+  target 'JupiterSize_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
