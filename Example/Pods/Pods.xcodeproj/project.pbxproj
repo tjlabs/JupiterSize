@@ -15,6 +15,7 @@
 		B32E7E072CEB23400092C2A2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E7E062CEB23400092C2A2 /* Constants.swift */; };
 		B32E7E092CEB26560092C2A2 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E7E082CEB26560092C2A2 /* Entity.swift */; };
 		B32E7E112CEB28700092C2A2 /* DecodingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E7E102CEB28700092C2A2 /* DecodingFunctions.swift */; };
+		B32E7E132CEB29460092C2A2 /* UsefulFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E7E122CEB29460092C2A2 /* UsefulFunctions.swift */; };
 		BDFA72AB1151842FBA2ED57E7AB09FE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		C48872064DA374D9D199A270406D605D /* JupiterSize-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2190485D331AC872662A39D3747769B0 /* JupiterSize-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C577D9125AEFAFF0D8E3C586432636A7 /* Pods-JupiterSize_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93905ED34C68CCA3622241609A0ADA3B /* Pods-JupiterSize_Example-dummy.m */; };
@@ -64,8 +65,8 @@
 		AECAF3CF3225B36612B00C05FDE5274D /* JupiterSize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JupiterSize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B32E7E062CEB23400092C2A2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = JupiterSize/Classes/Constants.swift; sourceTree = "<group>"; };
 		B32E7E082CEB26560092C2A2 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Entity.swift; path = JupiterSize/Classes/Entity.swift; sourceTree = "<group>"; };
-		B32E7E0E2CEB283F0092C2A2 /* UsefulFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UsefulFunctions.swift; path = JupiterSize/Classes/UsefulFunctions.swift; sourceTree = "<group>"; };
 		B32E7E102CEB28700092C2A2 /* DecodingFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DecodingFunctions.swift; path = JupiterSize/Classes/DecodingFunctions.swift; sourceTree = "<group>"; };
+		B32E7E122CEB29460092C2A2 /* UsefulFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UsefulFunctions.swift; path = JupiterSize/Classes/UsefulFunctions.swift; sourceTree = "<group>"; };
 		B3A0C7D1BAFA67767D0E79DCA1D7F889 /* JupiterSize.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JupiterSize.debug.xcconfig; sourceTree = "<group>"; };
 		B68B11E028B4351D8DE1C96F5AEAD2A0 /* JupiterSize.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JupiterSize.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BE1AD4BB830F71DB9D937E7016A84C98 /* Pods-JupiterSize_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JupiterSize_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -119,9 +120,9 @@
 				B1420B1C7B9283BC87A653A12EF88436 /* Pod */,
 				94292D54B98EA69299DA26E883D9B8D6 /* Support Files */,
 				B32E7E062CEB23400092C2A2 /* Constants.swift */,
-				B32E7E0E2CEB283F0092C2A2 /* UsefulFunctions.swift */,
 				B32E7E082CEB26560092C2A2 /* Entity.swift */,
 				B32E7E102CEB28700092C2A2 /* DecodingFunctions.swift */,
+				B32E7E122CEB29460092C2A2 /* UsefulFunctions.swift */,
 			);
 			name = JupiterSize;
 			path = ../..;
@@ -392,6 +393,7 @@
 				B32E7E112CEB28700092C2A2 /* DecodingFunctions.swift in Sources */,
 				8FDDD3E95735B89F0F739EC356B3C488 /* JupiterSize-dummy.m in Sources */,
 				B32E7E072CEB23400092C2A2 /* Constants.swift in Sources */,
+				B32E7E132CEB29460092C2A2 /* UsefulFunctions.swift in Sources */,
 				B32E7E092CEB26560092C2A2 /* Entity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
