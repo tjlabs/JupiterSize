@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		13AD81FE360BF329185E5E60 /* Pods-JupiterSize_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JupiterSize_Example.debug.xcconfig"; path = "Target Support Files/Pods-JupiterSize_Example/Pods-JupiterSize_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		37704A9F0F60E4F7114378A8 /* JupiterSize.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JupiterSize.podspec; path = ../JupiterSize.podspec; sourceTree = "<group>"; };
+		37704A9F0F60E4F7114378A8 /* JupiterSize.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JupiterSize.podspec; path = ../JupiterSize.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* JupiterSize_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JupiterSize_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -170,7 +170,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				383F0B749D45E7618D9BAA5C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,24 +263,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		383F0B749D45E7618D9BAA5C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JupiterSize_Example/Pods-JupiterSize_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JupiterSize/JupiterSize.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JupiterSize.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JupiterSize_Example/Pods-JupiterSize_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5C2067F94DEF0DC3B87A984F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

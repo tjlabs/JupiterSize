@@ -1,5 +1,5 @@
 PODS:
-  - JupiterSize (0.1.0)
+  - JupiterSize (0.0.3)
 
 DEPENDENCIES:
   - JupiterSize (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JupiterSize: 4e5dac6330faac83c68aa528e003fb5672469535
+  JupiterSize: 80a99f1a6e81a2c2ceb08e44a0d22007b505bc88
 
 PODFILE CHECKSUM: 98b9dde942e0f4b8de514f318ff198a6360b6313
 
