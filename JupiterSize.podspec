@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JupiterSize'
-  s.version          = '0.0.4'
+  s.version          = '0.0.7'
   s.summary          = 'A short description of JupiterSize.'
   s.swift_version    = '5.0'
   
@@ -9,17 +9,6 @@ Pod::Spec.new do |s|
   DESC
   
   s.static_framework = true
-  
-  s.pod_target_xcconfig = {
-      'ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES' => 'NO',
-      'VALID_ARCHS' => 'arm64 armv7 x86_64',
-      'SWIFT_OPTIMIZATION_LEVEL' => '-Onone'
-    }
-    s.user_target_xcconfig = {
-      'ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES' => 'NO',
-      'VALID_ARCHS' => 'arm64 armv7 x86_64',
-      'SWIFT_OPTIMIZATION_LEVEL' => '-Onone'
-    }
 
   s.ios.deployment_target = '15.0'
   s.homepage         = 'https://www.tjlabscorp.com'

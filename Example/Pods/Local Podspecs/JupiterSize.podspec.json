@@ -1,22 +1,12 @@
 {
   "name": "JupiterSize",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "summary": "A short description of JupiterSize.",
   "swift_versions": "5.0",
   "description": "TODO: Add long description of the pod here.",
   "static_framework": true,
-  "pod_target_xcconfig": {
-    "ENABLE_BITCODE": "NO"
-  },
-  "user_target_xcconfig": {
-    "SWIFT_OPTIMIZATION_LEVEL": "-Osize"
-  },
   "platforms": {
     "ios": "15.0"
-  },
-  "xcconfig": {
-    "VALID_ARCHS": "arm64 armv7",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   },
   "homepage": "https://www.tjlabscorp.com",
   "license": {
@@ -28,7 +18,7 @@
   },
   "source": {
     "git": "https://github.com/tjlabs/JupiterSize.git",
-    "tag": "0.0.3"
+    "tag": "0.0.6"
   },
   "source_files": "JupiterSize/Classes/**/*",
   "swift_version": "5.0"
