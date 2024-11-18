@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JupiterSize'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of JupiterSize.'
   s.swift_version    = '5.0'
   
@@ -8,6 +8,19 @@ Pod::Spec.new do |s|
   TODO: Add long description of the pod here.
   DESC
   
+  s.static_framework = true
+  s.pod_target_xcconfig = { 'OTHER_SWIFT_FLAGS' => '-wmo' }
+  s.user_target_xcconfig = { 'SWIFT_OPTIMIZATION_LEVEL' => '-Osize' }
+  s.platform = :ios, '15.0'
+  s.user_target_xcconfig = {
+    'ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES' => 'NO'
+  }
+  s.xcconfig = {
+    'VALID_ARCHS' => 'arm64 armv7',
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
+
   s.ios.deployment_target = '15.0'
   s.homepage         = 'https://www.tjlabscorp.com'
   s.license          = { :type => 'TJLABS Corp', :file => 'LICENSE' }
