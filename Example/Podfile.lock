@@ -1,0 +1,16 @@
+PODS:
+  - JupiterSize (0.1.0)
+
+DEPENDENCIES:
+  - JupiterSize (from `../`)
+
+EXTERNAL SOURCES:
+  JupiterSize:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JupiterSize: 4e5dac6330faac83c68aa528e003fb5672469535
+
+PODFILE CHECKSUM: 98b9dde942e0f4b8de514f318ff198a6360b6313
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,6 @@
+framework module JupiterSize {
+  umbrella header "JupiterSize-umbrella.h"
+
+  export *
+  module * { export * }
+}
