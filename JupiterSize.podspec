@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JupiterSize'
-  s.version          = '0.0.11'
+  s.version          = '0.0.12'
   s.summary          = 'A short description of JupiterSize.'
   s.swift_version    = '5.0'
   

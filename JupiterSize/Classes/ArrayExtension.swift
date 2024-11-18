@@ -4,7 +4,6 @@ extension Array {
 
 }
 
-
 public func += <V> ( left: inout [V], right: V) {
     left.append(right)
 }

@@ -17,6 +17,10 @@
 		B32E7E112CEB28700092C2A2 /* DecodingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E7E102CEB28700092C2A2 /* DecodingFunctions.swift */; };
 		B32E7E132CEB29460092C2A2 /* UsefulFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E7E122CEB29460092C2A2 /* UsefulFunctions.swift */; };
 		B32E7E152CEB2AFB0092C2A2 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E7E142CEB2AFA0092C2A2 /* ArrayExtension.swift */; };
+		B32E7E172CEB2DE70092C2A2 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E7E162CEB2DE70092C2A2 /* Node.swift */; };
+		B32E7E192CEB2DF20092C2A2 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E7E182CEB2DF20092C2A2 /* LinkedList.swift */; };
+		B32E7E1B2CEB2E170092C2A2 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E7E1A2CEB2E170092C2A2 /* StringExtension.swift */; };
+		B32E7E1D2CEB2E2D0092C2A2 /* NotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E7E1C2CEB2E2D0092C2A2 /* NotificationExtension.swift */; };
 		BDFA72AB1151842FBA2ED57E7AB09FE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		C48872064DA374D9D199A270406D605D /* JupiterSize-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2190485D331AC872662A39D3747769B0 /* JupiterSize-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C577D9125AEFAFF0D8E3C586432636A7 /* Pods-JupiterSize_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93905ED34C68CCA3622241609A0ADA3B /* Pods-JupiterSize_Example-dummy.m */; };
@@ -69,6 +73,10 @@
 		B32E7E102CEB28700092C2A2 /* DecodingFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DecodingFunctions.swift; path = JupiterSize/Classes/DecodingFunctions.swift; sourceTree = "<group>"; };
 		B32E7E122CEB29460092C2A2 /* UsefulFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UsefulFunctions.swift; path = JupiterSize/Classes/UsefulFunctions.swift; sourceTree = "<group>"; };
 		B32E7E142CEB2AFA0092C2A2 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArrayExtension.swift; path = JupiterSize/Classes/ArrayExtension.swift; sourceTree = "<group>"; };
+		B32E7E162CEB2DE70092C2A2 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Node.swift; path = JupiterSize/Classes/Node.swift; sourceTree = "<group>"; };
+		B32E7E182CEB2DF20092C2A2 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LinkedList.swift; path = JupiterSize/Classes/LinkedList.swift; sourceTree = "<group>"; };
+		B32E7E1A2CEB2E170092C2A2 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = JupiterSize/Classes/StringExtension.swift; sourceTree = "<group>"; };
+		B32E7E1C2CEB2E2D0092C2A2 /* NotificationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NotificationExtension.swift; path = JupiterSize/Classes/NotificationExtension.swift; sourceTree = "<group>"; };
 		B3A0C7D1BAFA67767D0E79DCA1D7F889 /* JupiterSize.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JupiterSize.debug.xcconfig; sourceTree = "<group>"; };
 		B68B11E028B4351D8DE1C96F5AEAD2A0 /* JupiterSize.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JupiterSize.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BE1AD4BB830F71DB9D937E7016A84C98 /* Pods-JupiterSize_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JupiterSize_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -126,6 +134,10 @@
 				B32E7E102CEB28700092C2A2 /* DecodingFunctions.swift */,
 				B32E7E122CEB29460092C2A2 /* UsefulFunctions.swift */,
 				B32E7E142CEB2AFA0092C2A2 /* ArrayExtension.swift */,
+				B32E7E162CEB2DE70092C2A2 /* Node.swift */,
+				B32E7E182CEB2DF20092C2A2 /* LinkedList.swift */,
+				B32E7E1A2CEB2E170092C2A2 /* StringExtension.swift */,
+				B32E7E1C2CEB2E2D0092C2A2 /* NotificationExtension.swift */,
 			);
 			name = JupiterSize;
 			path = ../..;
@@ -393,12 +405,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B32E7E1D2CEB2E2D0092C2A2 /* NotificationExtension.swift in Sources */,
 				B32E7E112CEB28700092C2A2 /* DecodingFunctions.swift in Sources */,
 				8FDDD3E95735B89F0F739EC356B3C488 /* JupiterSize-dummy.m in Sources */,
 				B32E7E072CEB23400092C2A2 /* Constants.swift in Sources */,
 				B32E7E152CEB2AFB0092C2A2 /* ArrayExtension.swift in Sources */,
 				B32E7E132CEB29460092C2A2 /* UsefulFunctions.swift in Sources */,
+				B32E7E1B2CEB2E170092C2A2 /* StringExtension.swift in Sources */,
 				B32E7E092CEB26560092C2A2 /* Entity.swift in Sources */,
+				B32E7E192CEB2DF20092C2A2 /* LinkedList.swift in Sources */,
+				B32E7E172CEB2DE70092C2A2 /* Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
